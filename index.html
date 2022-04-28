@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="content">
+        <div id="errorForm"></div>
+        <form id="form" action="https://formsubmit.co/rc.brunoo@gmail.com" method="post">
+            <input type="hidden" name="_subject" value="SOLICITUD DE PRESUPUESTO">
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html#contacto">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="text" name="nombre" id="nombre" placeholder="NOMBRE" required />
+            <label id="nombreOculto">INGRESE SU NOMBRE</label>
+            <br>
+            <input type="email" name="mail" id="mail" placeholder="MAIL" required />
+            <label id="mailOculto">INGRESE SU MAIL</label>
+            <br>
+            <input type="text" name="TELEFONO" id="telefono" placeholder="TELEFONO" />
+            <br>
+            <input type="text" name="CANTIDAD DE BULTOS" id="cantBultos" placeholder="CANTIDAD DE BULTOS" />
+            <br>
+            <input type="text" name="MEDIDAS" id="medidas" placeholder="MEDIDAS (largo x ancho x profundo)" />
+            <br>
+            <input type="text" name="PESO" id="peso" placeholder="PESO (kilos)" />
+            <br>
+            <input type="text" name="VALOR DECLARADO" id="valor" placeholder="VALOR DECLARADO" />
+            <br>
+            <input type="text" name="DESTINO" id="destino" placeholder="DESTINO DE LA MERCADERIA" />
+            <br>
+            <input type="text" name="LUGAR DE PAGO" id="lugarP"
+                placeholder="LUGAR DE PAGO (Bs. As. o en el Interior)" />
+            <br>
+            <textarea type="text" name="COMENTARIOS" id="comentarios" placeholder="COMENTARIOS"></textarea>
+            <br>
+            <input type="submit" name="Enviar" id="enviar"/>
+    </div>
+    </form>
+</div>
+</body>
+</html>
